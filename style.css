@@ -1,14 +1,35 @@
-body{
-    background-image: linear-gradient(to bottom right, rgb(247, 181, 96), rgb(246, 255, 113));
-    width: 300px;
-    height: 499px;
-    font-size:x-large;
-    color:white;
-    display: flex;
-    margin-left: 78px;
-    margin-top: 68px;
-    font-weight: bolder;
-}
-img{
-    margin-right: 35px;
+@media screen and (max-width:380px){
+    
+    body{
+        background-image: linear-gradient(to bottom right, rgb(247, 181, 96), rgb(246, 255, 113));
+        width: 300px;
+        height: 499px;
+        font-size:x-large;
+        color:white;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 8px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    img{
+        margin-right: 92px;
+        width: 147px;
+        margin-left: 84px;
+        margin-top: -16px;
+    }
+    text{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+
+    input{
+        align-items: center;
+        width: 172px;
+        border-radius: 19px;
+        height: 57px;
+    }
 }
