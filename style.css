@@ -1,26 +1,27 @@
 @media screen and (max-width:380px){
     
     body{
-        background-image: linear-gradient(to bottom right, rgb(247, 181, 96), rgb(246, 255, 113));
+        background-image: linear-gradient(to bottom right, rgb(245, 153, 33), rgb(245, 177, 30));
         width: 300px;
-        height: 499px;
-        font-size:x-large;
+        height: 630px;
+        font-size: 18px;
         color:white;
         display: flex;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: 8px;
         font-weight: bolder;
         text-align: center;
     }
 
     img{
-        margin-right: 92px;
+        margin-right: 65px;
         width: 147px;
-        margin-left: 84px;
+        margin-left: 72px;
         margin-top: -16px;
     }
     text{
         text-align: center;
+        font-weight: lighter;
     }
     h1{
         text-align: center;
@@ -28,8 +29,18 @@
 
     input{
         align-items: center;
-        width: 172px;
-        border-radius: 19px;
+        width: 205px;
+        border-radius: 67px;
         height: 57px;
+        background-color: white;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    p2{
+        font-size: 90px;
+        margin: 0px;
+    }
+    p1{
+        font-size: 20px;
     }
 }
